@@ -1,0 +1,130 @@
+/* Reset for body */
+body {
+    font-family: 'Savate', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* Barra superior */
+header {
+    background-color: #333;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    background-image: url('https://xatimg.com/image/T699wnFR3H2X.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Barra izquierda */
+.left-bar {
+    width: 25%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    border-radius: 10px;
+}
+
+#avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    margin-bottom: 15px;
+}
+
+#avatar:hover {
+    transform: scale(1.1);
+}
+
+.left-bar h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.left-bar ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.left-bar ul li {
+    margin: 10px 0;
+}
+
+.left-bar .friend-avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* Barra del feed (medio) */
+.feed {
+    width: 50%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.carousel {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.carousel img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Barra derecha */
+.right-bar {
+    width: 25%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    position: sticky;
+    top: 0;
+}
+
+/* Reproductor de música */
+.music-player {
+    background-color: #444;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.music-player iframe {
+    width: 100%;
+    height: 200px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Espaciado y márgenes */
+p {
+    font-size: 16px;
+    margin-top: 10px;
+}
